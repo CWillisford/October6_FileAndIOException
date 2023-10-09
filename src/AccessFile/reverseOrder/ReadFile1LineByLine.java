@@ -1,4 +1,4 @@
-package AccessFile;
+package AccessFile.reverseOrder;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -11,10 +11,19 @@ public class ReadFile1LineByLine {
 
 
             BufferedReader bufferedReader = new BufferedReader(file);
-
+            //read each line
             String line1 = bufferedReader.readLine();
             String line2 = bufferedReader.readLine();
             String line3 = bufferedReader.readLine();
+
+            //print each line
+            if(line1 != null)System.out.println(line1);
+            if(line2 != null)System.out.println(line2);
+            if(line3 != null)System.out.println(line3);
+
+            //close the bufferreader object
+            bufferedReader.close();
+
         }catch(IOException e){
 
         }

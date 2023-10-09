@@ -1,4 +1,4 @@
-package AccessFile;
+package AccessFile.reverseOrder;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -24,8 +24,6 @@ public class ReadFile1 {
         }catch (IOException e){
             e.printStackTrace();
         }
-//        catch(Exception e){
-//
-//        }
+
     }
 }
